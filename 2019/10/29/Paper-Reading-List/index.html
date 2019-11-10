@@ -20,7 +20,9 @@
 <meta property="og:image" content="https:&#x2F;&#x2F;xiwj.github.io&#x2F;2019&#x2F;10&#x2F;29&#x2F;Paper-Reading-List&#x2F;pipeline-ccnet.png">
 <meta property="og:image" content="https:&#x2F;&#x2F;xiwj.github.io&#x2F;2019&#x2F;10&#x2F;29&#x2F;Paper-Reading-List&#x2F;idea-ccnet.png">
 <meta property="og:image" content="https:&#x2F;&#x2F;xiwj.github.io&#x2F;2019&#x2F;10&#x2F;29&#x2F;Paper-Reading-List&#x2F;pipeline-deepmvs.png">
-<meta property="og:updated_time" content="2019-11-05T11:21:50.153Z">
+<meta property="og:image" content="https:&#x2F;&#x2F;xiwj.github.io&#x2F;2019&#x2F;10&#x2F;29&#x2F;Paper-Reading-List&#x2F;pipeline-dpsnet.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;xiwj.github.io&#x2F;2019&#x2F;10&#x2F;29&#x2F;Paper-Reading-List&#x2F;pipeline-APNB.png">
+<meta property="og:updated_time" content="2019-11-10T03:47:01.272Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https:&#x2F;&#x2F;xiwj.github.io&#x2F;2019&#x2F;10&#x2F;29&#x2F;Paper-Reading-List&#x2F;pipeline.png">
   
@@ -103,7 +105,7 @@
         
         <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#SSAP-Single-Shot-Instance-Segmentation-With-Affinity-Pyramid"><span class="toc-number">1.</span> <span class="toc-text">SSAP: Single-Shot Instance Segmentation With Affinity Pyramid</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Real-time-self-adaptive-deep-stereo"><span class="toc-number">2.</span> <span class="toc-text">Real-time self-adaptive deep stereo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CCNet-Criss-Cross-Attention-for-Semantic-Segmentation"><span class="toc-number">3.</span> <span class="toc-text">CCNet: Criss-Cross Attention for Semantic Segmentation</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DeepMVS-Learning-Multi-view-Stereopsis"><span class="toc-number">4.</span> <span class="toc-text">DeepMVS-Learning Multi-view Stereopsis</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#SSAP-Single-Shot-Instance-Segmentation-With-Affinity-Pyramid"><span class="toc-number">1.</span> <span class="toc-text">SSAP: Single-Shot Instance Segmentation With Affinity Pyramid</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Real-time-self-adaptive-deep-stereo"><span class="toc-number">2.</span> <span class="toc-text">Real-time self-adaptive deep stereo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CCNet-Criss-Cross-Attention-for-Semantic-Segmentation"><span class="toc-number">3.</span> <span class="toc-text">CCNet: Criss-Cross Attention for Semantic Segmentation</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DeepMVS-Learning-Multi-view-Stereopsis"><span class="toc-number">4.</span> <span class="toc-text">DeepMVS-Learning Multi-view Stereopsis</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DPSNET-END-TO-END-DEEP-PLANE-SWEEP-STEREO"><span class="toc-number">5.</span> <span class="toc-text">DPSNET: END-TO-END DEEP PLANE SWEEP STEREO</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Asymmetric-Non-local-Neural-Networks-for-Semantic-Segmentation"><span class="toc-number">6.</span> <span class="toc-text">Asymmetric Non-local Neural Networks for Semantic Segmentation</span></a></li></ol>
         </div>
       
         <p>Daily paper reading record</p>
@@ -112,12 +114,14 @@
 <h2 id="SSAP-Single-Shot-Instance-Segmentation-With-Affinity-Pyramid"><a href="#SSAP-Single-Shot-Instance-Segmentation-With-Affinity-Pyramid" class="headerlink" title="SSAP: Single-Shot Instance Segmentation With Affinity Pyramid"></a>SSAP: Single-Shot Instance Segmentation With Affinity Pyramid</h2><p>date: 2019/10/29<br><br>categories: instance segmentation<br><br>summary: This work has proposed a single-shot proposal-free instance segmentation method, which requires only one single pass to generate instances. Our method is based on a novel affinity pyramid to distinguish instances, which can be jointly learned with the pixel-level semantic class labels using a single backbone network.<br><br>pipeline: <br><br><img src="pipeline.png" alt="pipeline"></p>
 <h2 id="Real-time-self-adaptive-deep-stereo"><a href="#Real-time-self-adaptive-deep-stereo" class="headerlink" title="Real-time self-adaptive deep stereo"></a>Real-time self-adaptive deep stereo</h2><p>date: 2019/10/30<br><br>categories: deep stereo<br><br>summary: The proposed online unsupervised fine-tuning approach can successfully tackle the domain adaptation issue for deep end-to-end disparity regression networks. For applications in which inference time is critical, we have proposed MADNet, a novel network architecture, and MAD, a strategy to effectively adapt it online very efficiently. We believe this to be key to practical deployment of these potentially groundbreaking deep learning systems in many relevant scenarios.<br><br>pipeline: <br><br><img src="pipeline-MADNet.png" alt="pipeline-MADNet"></p>
 <h2 id="CCNet-Criss-Cross-Attention-for-Semantic-Segmentation"><a href="#CCNet-Criss-Cross-Attention-for-Semantic-Segmentation" class="headerlink" title="CCNet: Criss-Cross Attention for Semantic Segmentation"></a>CCNet: Criss-Cross Attention for Semantic Segmentation</h2><p>date: 2019/10/30<br><br>categories: semantic segmentation<br><br>summary: In this paper, we have presented a Criss-Cross Network (CCNet) for semantic segmentation, which adaptively captures long-range contextual information on the criss-cross path. To obtain dense contextual information, we introduce recurrent criss-cross attention module which aggregates contextual information from all pixels<br><br>pipeline: <br><br><img src="pipeline-ccnet.png" alt="pipeline-ccnet"><br><br>core idea: <br><br><img src="idea-ccnet.png" alt="idea-ccnet"></p>
-<h2 id="DeepMVS-Learning-Multi-view-Stereopsis"><a href="#DeepMVS-Learning-Multi-view-Stereopsis" class="headerlink" title="DeepMVS-Learning Multi-view Stereopsis"></a>DeepMVS-Learning Multi-view Stereopsis</h2><p>date: 2019/11/5<br><br>categories: Multi-view reconstruction<br><br>summary: With DeepMVS, we demonstrate the feasibility of learning Mulit-View Stereopsis with a convolutinoal neural network, and show that learning-based approaches can overcome the weaknesses of conventional algorithms.<br><br>pipeline: <br><br><img src="pipeline-deepmvs.png" alt="pipeline-deepmvs"><br><br>link: <a href="https://xiwj.github.io/2019/11/05/PR-DeepMVS/#more">DeepMVS-Learning Multi-view Stereopsis</a></p>
+<h2 id="DeepMVS-Learning-Multi-view-Stereopsis"><a href="#DeepMVS-Learning-Multi-view-Stereopsis" class="headerlink" title="DeepMVS-Learning Multi-view Stereopsis"></a>DeepMVS-Learning Multi-view Stereopsis</h2><p>date: 2019/11/5<br><br>categories: Multi-view reconstruction<br><br>summary: With DeepMVS, we demonstrate the feasibility of learning Mulit-View Stereopsis with a convolutinoal neural network, and show that learning-based approaches can overcome the weaknesses of conventional algorithms.<br><br>pipeline: <br><br><img src="pipeline-deepmvs.png" alt="pipeline-deepmvs"><br><br>link: <a href="DeepMVS.pdf">DeepMVS-Learning Multi-view Stereopsis</a></p>
+<h2 id="DPSNET-END-TO-END-DEEP-PLANE-SWEEP-STEREO"><a href="#DPSNET-END-TO-END-DEEP-PLANE-SWEEP-STEREO" class="headerlink" title="DPSNET: END-TO-END DEEP PLANE SWEEP STEREO"></a>DPSNET: END-TO-END DEEP PLANE SWEEP STEREO</h2><p>date: 2019/11/6<br><br>categories: Multi-view reconstruction<br><br>summary: We developed a multiview stereo network whose design is inspired by best practices of traditional non-learning-based techniques. Moreover, we propose a context-aware cost aggregation method that leads to improved depth regression without any post-processing.<br><br>pipeline: <br><br><img src="pipeline-dpsnet.png" alt="pipeline-dpsnet"><br><br>link: <a href="DPSNET.pdf">DPSNET: END-TO-END DEEP PLANE SWEEP STEREO</a></p>
+<h2 id="Asymmetric-Non-local-Neural-Networks-for-Semantic-Segmentation"><a href="#Asymmetric-Non-local-Neural-Networks-for-Semantic-Segmentation" class="headerlink" title="Asymmetric Non-local Neural Networks for Semantic Segmentation"></a>Asymmetric Non-local Neural Networks for Semantic Segmentation</h2><p>date: 2019/11/10<br><br>categories: Semantic segmentation<br><br>summary: In this paper, we propose an asymmetric non-local neural network for semantic segmentation. The core contribution of asymmetric non-local neural network is the asymmetric pyramid non-local block, which can dramatically improve the efficiency and decrease the memory consumption of non-local neural blocks without sacrificing the performance. Besides, we also propose asymmetric fusion non-local block to fuse features of different levels. The asymmetric fusion non-local block can explore the long range spatial relevance among features of different levels<br><br>pipeline: <br><br><img src="pipeline-APNB.png" alt="pipeline-APNB"><br></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://xiwj.github.io/2019/10/29/Paper-Reading-List/" data-id="ck2lt6spg0004knaohf0igewc" class="article-share-link">Share</a>
+      <a data-url="https://xiwj.github.io/2019/10/29/Paper-Reading-List/" data-id="ck2sgil4p0000bnao9zl992yk" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/daily-record/" rel="tag">daily record</a></li></ul>
@@ -127,15 +131,6 @@
   
     
 <nav id="article-nav">
-  
-    <a href="/2019/11/05/PR-DeepMVS/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          PR:DeepMVS
-        
-      </div>
-    </a>
   
   
     <a href="/2019/10/25/Hexo-Build/" id="article-nav-older" class="article-nav-link-wrap">
@@ -189,7 +184,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Multi-view-Stereo-Reconstruction/" rel="tag">Multi-view Stereo Reconstruction</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/daily-record/" rel="tag">daily record</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gitment/" rel="tag">gitment</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/npm/" rel="tag">npm</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/daily-record/" rel="tag">daily record</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gitment/" rel="tag">gitment</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/npm/" rel="tag">npm</a></li></ul>
     </div>
   </div>
 
@@ -199,7 +194,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Multi-view-Stereo-Reconstruction/" style="font-size: 10px;">Multi-view Stereo Reconstruction</a> <a href="/tags/daily-record/" style="font-size: 10px;">daily record</a> <a href="/tags/gitment/" style="font-size: 10px;">gitment</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/npm/" style="font-size: 10px;">npm</a>
+      <a href="/tags/daily-record/" style="font-size: 10px;">daily record</a> <a href="/tags/gitment/" style="font-size: 10px;">gitment</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/npm/" style="font-size: 10px;">npm</a>
     </div>
   </div>
 
@@ -208,7 +203,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">November 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">October 2019</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">October 2019</a></li></ul>
     </div>
   </div>
 
@@ -219,10 +214,6 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
-        
-          <li>
-            <a href="/2019/11/05/PR-DeepMVS/">PR:DeepMVS</a>
-          </li>
         
           <li>
             <a href="/2019/10/29/Paper-Reading-List/">Paper-Reading-List</a>
